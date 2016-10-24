@@ -1,4 +1,4 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.namiaweb.entofa" version="1.0.3">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.namiaweb.entofa" version="1.0.4">
   <name>مخاطب فارسی</name>
   <description>برنامه تبدیل مخاطب فنگلیش به فارسی</description>
   <author href="http://namiaweb.com" email="support@namiaweb.ir">Namia Team</author>
@@ -19,14 +19,6 @@
   <preference name="android-minSdkVersion" value="14"/>
   <preference name="android-installLocation" value="auto"/>
   <preference name="phonegap-version" value="cli-6.3.0" />
-  <gap:plugin name="org.apache.cordova.console"/>
-  <gap:plugin name="org.apache.cordova.contacts"/>
-  <gap:plugin name="org.apache.cordova.device-orientation"/>
-  <gap:plugin name="org.apache.cordova.dialogs"/>
-  <gap:plugin name="org.apache.cordova.file"/>
-  <gap:plugin name="org.apache.cordova.file-transfer"/>
-  <gap:plugin name="org.apache.cordova.network-information"/>
-  <gap:plugin name="org.apache.cordova.splashscreen"/>
   <gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
   <icon src="icon.png"/>
   <icon src="www/res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:qualifier="ldpi"/>
